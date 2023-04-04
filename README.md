@@ -8,3 +8,4 @@ Features:
 - 2 Languages support
 - 6 questions about different themes
 - Gallery
+- Custom audio player
