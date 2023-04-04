@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+$scale: 0.6;
+
+$last: 25px 25px;
+$md-last: 50px 50px;
+$lg-last: 70px 60px; 
+
+@keyframes motion-md {
+  from { translate: 50px -60px }
+  to { translate: $md-last }
+}
+
+@keyframes motion-lg {
+  from { translate: 70px -60px }
+  to { translate: $lg-last }
+}
+
+.logo {
+    background-image: url(/src/assets/svg/logo.svg);
+    width: calc(200px * $scale);
+    height: calc(125px * $scale);
+    scale: 1.5;
+    translate: $last;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    @media (min-width: $md) {
+        scale: 2;
+        animation-name: motion-md;
+        translate: $md-last;
+    }
+
+    @media (min-width: $lg) {
+        scale: 2.7;
+        animation-name: motion-lg;
+        translate: $lg-last;
+    }
+}

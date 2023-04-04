@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 20px 0;
+
+    background-color: $primary;
+    border-radius: 20px;
+}
+
+.gallery__btn {
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    @media (min-width: $md) {
+        padding: 0 10px;
+    }
+}

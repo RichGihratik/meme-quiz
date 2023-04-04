@@ -1,0 +1,14 @@
+@import '../variables.scss';
+
+.spoiler {
+    color: transparent;
+    user-select: none;
+    background-color: $primary-dark;
+    font-size: 0.9rem;
+
+    &:hover {
+        color: $text-color;
+        background-color: transparent;
+    }
+
+}

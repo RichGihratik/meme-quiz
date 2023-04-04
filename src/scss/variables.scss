@@ -1,0 +1,50 @@
+/* FONTS 
+===========================
+*/
+
+@font-face {
+  font-family: Pixel;
+  src: local("Nineteen Eighty Seven"),
+       url(../assets/fonts/NineteenEightySeven-MzMJ.ttf);
+  font-weight:normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+/* COLORS 
+===========================
+*/
+
+$gray-light: #dee2e6;
+$gray: #adb5bd;
+$gray-dark: #495057;
+$gray-darken: #212529;
+
+$primary-light:#a37fb1; 
+$primary: #79436f;
+$primary-dark:#432b46;
+
+$secondary-light: #fbe7c6;
+$secondary: #ffaebc;
+
+$danger: #db1f48;
+$success: #76b947;
+
+$text-color: white;
+
+/* BREAKPOINTS
+===========================
+*/
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+/* OTHER
+===========================
+*/
+
+$upper-outline-width: 230px;
+$mobile-bar-height: 70px;

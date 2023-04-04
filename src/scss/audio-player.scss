@@ -1,0 +1,97 @@
+@import "variables.scss";
+
+.audio-player {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: $primary-dark;
+  border-radius: 10px;
+  padding: 10px;
+
+  @media (min-width: $sm) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.audio-player__time {
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  padding: 3px;
+
+  @media (min-width: $md) {
+    font-size: 1rem;
+  }
+}
+
+.audio-player__wrap {
+  display: flex;
+  width: 100%;
+}
+
+.audio-player__seekbar-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.audio-player__seekbar {
+  width: 100%;
+
+  appearance: none;
+  background: $primary-dark;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  height: 12px;
+
+  @media (min-width: $md) {
+    height: 12px;
+  }
+
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $secondary;
+    cursor: pointer;
+    box-shadow: -407px 0 0 400px  $secondary;
+  }
+}
+
+.btn__icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $text-color;
+  mask-clip: fill-box;
+  mask-size: 100% 100%;
+
+  width: 25px;
+  height: 25px;
+
+  transition: scale 0.5s;
+
+  @media (min-width: $md) {
+    width: 40px;
+    height: 40px;
+  }
+
+  &:active {
+    scale: 0.9;
+  }
+}
+
+.btn__icon_img_play {
+  mask-image: url(/src/assets/svg/icons/play-icon.svg);
+}
+
+.btn__icon_img_pause {
+  mask-image: url(/src/assets/svg/icons/pause-icon.svg);
+}

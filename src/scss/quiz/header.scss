@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.quiz-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Marck Script', cursive;
+  color: $text-color;
+  
+  font-weight: 900;
+  padding: 20px;
+}

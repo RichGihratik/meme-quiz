@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.main-page__header {
+  z-index: 2;
+  display: flex;
+  position: fixed;
+  width: calc(100% - 100px);
+  padding: 0 50px;
+
+  @media (max-width: $lg) {
+    padding: 0;
+    width: 100%;
+  }
+  
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  margin-top: 4vh;
+}

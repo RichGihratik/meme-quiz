@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.tab-icon {
+    box-sizing: border-box;
+    background-color: $text-color;
+    width: 75%;
+    height: 75%;
+    mask-clip: fill-box;
+    mask-size: 100% 100%;
+}
+
+.tab-icon_type_img {
+    mask-image: url(/src/assets/svg/icons/img-icon.svg);
+}
+
+.tab-icon_type_play {
+    mask-image: url(/src/assets/svg/icons/start-icon.svg);
+}
+
+.tab-icon_type_info {
+    mask-image: url(/src/assets/svg/icons/info-icon.svg);
+}

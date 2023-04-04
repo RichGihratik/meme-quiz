@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.page-btn {
+    height: fit-content;
+    width: fit-content;
+    transition: scale 0.5s;
+
+    &:hover {
+        scale: 1.2;
+    } 
+
+    &:active {
+        scale: 1;
+    }
+}
+
+.page-btn__icon {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $text-color;
+    mask-clip: fill-box;
+    mask-size: 100% 100%;
+
+    @media (min-width: $md) {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.page-btn__icon_type_prev {
+    mask-image: url(/src/assets/svg/icons/prev-icon.svg);
+}
+
+.page-btn__icon_type_next {
+    mask-image: url(/src/assets/svg/icons/next-icon.svg);
+}

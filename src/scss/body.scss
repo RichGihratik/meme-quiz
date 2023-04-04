@@ -1,0 +1,48 @@
+@import 'variables.scss';
+
+
+@keyframes blink {
+  0% {
+    background-image: url(/src/assets/img/background.gif);
+  }
+  40% {
+    background-image: url(/src/assets/img/background-2.png);
+  }
+}
+
+.page {
+
+  &::before {
+    box-sizing: border-box;
+    filter: blur(3px);
+    content: ' ';
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+    transition: all 0.5s;
+
+    background-color: $primary;
+    background-image: url(/src/assets/img/background.gif);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0px;
+}
+
+.blink-animation {
+  &::before {
+    animation-name: blink;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    filter: none;
+  }
+}

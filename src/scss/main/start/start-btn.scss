@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.start-btn-wrap {
+    margin: 25px auto;
+}
+
+.start-btn {
+    background-image: url(/src/assets/svg/play.svg);
+    background-size: cover;
+    min-width: 70px;
+    min-height: 70px;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 5vh;
+    transition: scale 0.5s, filter 0.5s;
+
+    @media (min-width: $lg) {
+        margin-top: 70px;
+    }
+
+    &:hover {
+        scale: 1.2;
+        filter: saturate(110%);
+    }
+
+    &:active {
+        scale: 0.75;
+    }
+} 

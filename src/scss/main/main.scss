@@ -1,0 +1,18 @@
+@import "../variables.scss";
+
+.main-page__main {
+  color: $text-color;
+  font-family: "Pixel";
+  min-height: 100vh;
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30vh;
+  padding-bottom: 120px;
+
+  @media (max-width: calc($md - 1px)) {
+     padding-bottom: calc($mobile-bar-height + 120px + 1px);
+  }
+}

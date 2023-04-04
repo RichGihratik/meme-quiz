@@ -1,0 +1,23 @@
+.github-link-wrap {
+    margin: 10px;
+    transition: scale 1s, filter 1s;
+
+    &:hover {
+        scale: 1.1;
+        filter: brightness(150%);
+    }
+
+    &:active {
+        scale: 0.9;
+    }
+}
+
+.github-logo {
+    background-image: url(/src/assets/svg/github-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50px;
+    min-width: 50px;
+    width: min(10vh, 10vw);
+    height: min(10vh, 10vw);
+}

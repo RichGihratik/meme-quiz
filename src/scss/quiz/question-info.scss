@@ -1,0 +1,53 @@
+@import "../variables.scss";
+
+.question-info__img {
+    padding: 20px;
+}
+
+.question-info {
+    margin: 0 10px;
+}
+
+.question-wrap {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $primary;
+    
+    border-radius: 10px;
+}
+
+.question-info__other {
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.question-info__name {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+    padding: 10px;
+
+    font-size: 0.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    @media (min-width: $md) {
+        font-size: 1rem;
+    }
+}
+
+.question-info__audio {
+    width: 100%;
+    padding: 30px 10px;
+}
+

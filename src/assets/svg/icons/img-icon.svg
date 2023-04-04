@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="98.934669mm"
+   height="98.934677mm"
+   viewBox="0 0 98.934668 98.934678"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="img-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.99419192"
+     inkscape:cx="249.95174"
+     inkscape:cy="255.98679"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.015601,-90.415191)">
+    <rect
+       style="fill:none;fill-opacity:0.794374;stroke:#000000;stroke-width:8.323;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1514"
+       width="90.611671"
+       height="90.611671"
+       x="41.177101"
+       y="94.576691"
+       ry="23.55151" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.843722;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path3334"
+       cx="105"
+       cy="120.60642"
+       r="6.6996727" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.823;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 54.093437,169.11855 c -0.156584,-0.89976 19.736065,-37.80659 19.736065,-37.80659 l 13.757363,23.71746 16.106045,-7.94648 15.18045,21.96736 z"
+       id="path3500" />
+  </g>
+</svg>

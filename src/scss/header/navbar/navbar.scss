@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+
+.navbar {
+    display: flex;
+    color: $text-color;
+}
+
+.navbar__button {
+    margin: 0 0 0 2rem;
+    display: flex;
+    align-items: center;
+}

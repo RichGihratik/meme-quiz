@@ -1,0 +1,25 @@
+
+
+.about__quote-wrap {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote__body {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.7rem;
+}
+
+.quote__author {
+    font-size: 0.7rem;
+    display: flex;
+    align-self: flex-end;
+}

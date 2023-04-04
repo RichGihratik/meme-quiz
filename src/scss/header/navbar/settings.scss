@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.settings {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: rotate 0.2s, scale 0.2s, filter 0.2s;
+
+    &:hover {
+        rotate: 20deg;
+        scale: 1.5;
+        filter: saturate(150%);
+    }
+
+    @media (min-width: $xl) {
+        scale: 1.2;
+    }
+
+    &:active {
+        scale: 1;
+    }
+}
+
+.settings__icon {
+    width: 50px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.settings__icon_lang_rus {
+    background-image: url(/src/assets/svg/icons/russia-icon.svg);
+}
+
+.settings__icon_lang_eng {
+    background-image: url(/src/assets/svg/icons/eng-icon.svg);
+}

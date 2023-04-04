@@ -1,0 +1,29 @@
+@import '../variables.scss';
+
+.mobile-navbar__tab {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid $primary-dark;
+    border-right: 2px solid $primary-dark;
+    transition: background-color 0.5s;
+
+    &:active {
+      background-color: $primary-light;
+    }
+}
+
+.mobile-navbar__tab_active {
+    background-color: $primary-dark;
+    border-bottom: 4px solid $primary-light;
+
+    &:active {
+      background-color: $primary-dark;
+    }
+}
+
+
